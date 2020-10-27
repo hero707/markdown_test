@@ -49,6 +49,68 @@ this is horizontal line
 [my link](http://www.google.com)
 
 
-![alt text](image.jpg)
+![alt text](image.png)
 
+
+### Table
+
+| Syntax | Description | test |
+| ----------- | ----------- |----------- |
+| Header | Title | Title |
+| Paragraph | Text | Title |
+| apple | banana | Title |
+| Header | Title | Title |
+| Paragraph | Text | Title |
+| apple | banana | Title |
+
+```c
+#include <stdio.h>
+int main() {    
+
+    int number1, number2, sum;
+    
+    printf("Enter two integers: ");
+    scanf("%d %d", &number1, &number2);
+
+    // calculating sum
+    sum = number1 + number2;      
+    
+    printf("%d + %d = %d", number1, number2, sum);
+    return 0;
+}
+```
+
+```javascript
+function func() {
+  var a = 'AAA';
+  return a;
+}
+```
+
+```css
+.list > li {
+  position: absolute;
+  top: 40px;
+}
+```
+
+```bash
+$ vim ./~zshrc
+```
+
+```python
+s = "Python syntax highlighting"
+print s
+```
+
+```
+No language indicated, so no syntax highlighting. 
+But let's throw in a tag.
+```
+
+### Task List
+
+- [x] Write the press release
+- [ ] Update the website
+- [ ] Contact the media
 
